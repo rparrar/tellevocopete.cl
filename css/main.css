@@ -1,0 +1,176 @@
+body{
+	min-width: 300px;
+	font-family: 'Happy Monkey', cursive;
+}
+img{
+	max-width: 100%;
+    cursor: pointer;
+}
+.sinmanito{
+	cursor: default;
+}
+.quitar-float{
+	float: none;
+}
+.espacio-arriba{
+	margin-top: 20px;
+}
+.mas-espacio-arriba{
+	margin-top: 30px;
+}
+.play{
+	font-family: 'Play', sans-serif;
+}
+.happy{
+	font-family: 'Happy Monkey', cursive;
+}
+.se-gris{
+	background-color: #eee;
+}
+.se-verde{	
+	background-color: #93BD2C;
+}
+.se-verdeoscuro{
+	background-color: #00833d;
+}
+.se-rojo{
+	background-color: #BF2617;
+}
+.vete-arriba{
+	vertical-align: top;
+}
+.padding-largo{
+	padding: 5px 10px;
+}
+.verde{
+	color:#00887C;
+}
+.verdeoscuro{
+	color:#00833D;
+}
+.naranjo{
+	color:#FF4127;
+}
+.blanco{
+	color:#FFF;
+}
+.negro{
+	color:000;
+}
+.retraso-1{
+	animation-delay: 1s;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+}
+.retraso-2{
+	animation-delay: 2s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+}
+.no-lista {
+	margin: 0px;
+	padding: 0px;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -8px;
+}
+.no-lista li{
+	list-style-type: none;
+}
+.espacio-derecha{
+	margin-right: 1em;
+}
+a,.azul{
+	color:#009FFF;
+	text-decoration: none;
+}
+.rellenoazul{
+	background-color: #009FFF;
+	color: #fff;
+}
+.grande{
+	font-size: 3em;
+}
+.casigrande{
+	font-size: 2.2em;
+}
+.mediano{
+	font-size: 1.5em;
+}
+.casimediano{
+	font-size: 1.2em;
+}
+.mediomediano{
+	font-size: 1em;
+}
+.peque{
+	font-size: 0.8em;
+}
+.centrame{
+	margin: 0 auto;
+}
+.barrabotones{
+	margin-bottom: 10px;
+}
+.categoriaslicor{
+	margin-top: 10px;
+}
+.contador{
+	margin: 10px !important;
+}
+@media only screen and (max-width: 769px) {
+	img{
+	max-width: 60%;
+}
+}
+@media only screen and (max-width: 600px) {
+	p.arreglate{
+		font-size:2.8vw !important;
+		font-family: 'Play', sans-serif;
+	}
+}
+@media only screen and (max-width: 400px) {
+	p.arreglate{
+		font-size:3.5vw !important;
+		font-weight: bolder !important;
+		font-family: 'Play', sans-serif;
+	}
+}
+@media only screen and (max-width: 320px) {
+	p.arreglate{
+		font-size:3.5vw !important;
+		font-weight: bolder !important;
+		font-family: 'Play', sans-serif;
+	}
+}
+.panel-title>a{
+	color: #00887C;
+	font-family: 'Happy Monkey', cursive;
+}
+.media-body{
+	width: 75%;
+}
+.modal-content {
+    border-radius:0;
+        margin:0 auto;
+
+}
+.modal-dialog img {
+    text-align:center;
+    margin:0 auto;
+}
+
+.modal-dialog {
+    max-width:80%;
+    padding-top: 90px;
+        margin:0 auto;
+}
+.mensaje-promo{
+	  width: 50%;
+	  float: none;
+	  margin: 0px;
+	  display: inline-block;
+}
+}
